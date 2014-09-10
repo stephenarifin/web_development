@@ -1,0 +1,27 @@
+body {
+	background: #FFFFF5;
+
+}
+
+tr {
+	background: #FDA456;
+	outline: 2px solid;
+	font-size: 30px;
+}
+
+table {
+	margin: auto;
+	margin-top: 20px;
+}
+
+#first {
+	background: white;
+}
+
+#second {
+	background: #FFFAAA;
+}
+
+#third {
+	background: #FFA000;
+}

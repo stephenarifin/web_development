@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+	<title>Script Testing</title>
+	<script type="text/javascript">
+	function hide(){
+		document.getElementById("text1").style.visibility = 'hidden';
+	}
+	function show(){
+		document.getElementById("text1").style.visibility = 'visible';
+	}
+	function format(){
+		document.getElementById("text1").style.background = 'green';
+		document.getElementById("text1").style.color = 'red';
+		document.getElementById("text1").style.textAlign = 'center';	
+		document.getElementById("text1").style.fontSize = '20px';
+	}
+	function reset(){	
+		document.getElementById("text1").style.visibility = 'visible';
+		document.getElementById("text1").style.background = 'white';
+		document.getElementById("text1").style.color = 'black';
+		document.getElementById("text1").style.textAlign = 'left';
+		document.getElementById("text1").style.fontSize = '14px';
+	}
+	</script>
+</head>
+<body>
+	<input type="text" id="text1">
+	<br>
+	<button type="button" onclick="hide()">Hide</button>
+	<button type="button" onclick="show()">Show</button>
+	<button type="button" onclick="format()">Format</button>
+	<button type="button" onclick="reset()">Reset</button>
+
+</body>
+</html>
